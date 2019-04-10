@@ -1,0 +1,71 @@
+version: '3'
+services:
+  nginx:
+    container_name: bdw_nginx
+    build: ./docker/nginx
+    ports:
+      - '8080:80'
+    volumes:
+      - ./docker/nginx:/etc/nginx/conf.d
+      - ./docker/logs/nginx:/var/log/nginx
+      - ./src:/var/www/html
+    depends_on:
+      - db
+      - php
+    restart: always
+  php:
+    container_name: bdw_php
+    build: ./docker/php
+    ports:
+      - '9090:9000'
+    volumes:
+      - ./src:/var/www/html
+      - ./docker/logs/php:/var/log/php
+      - ./docker/php/www.conf:/usr/local/etc/php-fpm.d/www.conf
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      - smtp
+    restart: always
+    environment:
+      - DB_NAME=${MYSQL_DATABASE}
+      - DB_HOST=${MYSQL_HOST}
+      - DB_USER=${MYSQL_USER}
+      - DB_PASSWORD=${MYSQL_PASSWORD}
+      - WP_TABLE_PREXIF=${WP_TABLE_PREXIF}
+      - WP_HOME=${WP_HOME}
+      - WP_SITEURL=${WP_SITEURL}
+      - WP_AUTH_KEY=${WP_AUTH_KEY}
+      - WP_SECURE_AUTH_KEY=${WP_SECURE_AUTH_KEY}
+      - WP_LOGGED_IN_KEY=${WP_LOGGED_IN_KEY}
+      - WP_NONCE_KEY=${WP_NONCE_KEY}
+      - WP_AUTH_SALT=${WP_AUTH_SALT}
+      - WP_SECURE_AUTH_SALT=${WP_SECURE_AUTH_SALT}
+      - WP_LOGGED_IN_SALT=${WP_LOGGED_IN_SALT}
+      - WP_NONCE_SALT=${WP_NONCE_SALT}
+  db:
+    container_name: bdw_db
+    build: ./docker/db
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./docker/logs/db:/var/log/mysql
+      - ./docker/data/db:/var/lib/mysql
+      - ./docker/db/my.cnf:/etc/mysql/my.cnf
+      - ./docker/db/init:/docker-entrypoint-initdb.d"
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+  smtp:
+    container_name: bdw_smtp
+    build: ./docker/smtp
+    restart: always
+    ports:
+      - "8025:8025" 
+      - "1025:1025"
+    environment:
+      MH_STORAGE: maildir
+      MH_MAILDIR_PATH: /tmp
+    volumes:
+      - ./docker/data/smtp:/tmp

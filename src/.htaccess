@@ -1,0 +1,42 @@
+Options -Indexes
+
+# BEGIN WordPress
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /extbook/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/wp-json/
+RewriteRule . /extbook/index.php [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteCond %{QUERY_STRING} rest_route=
+ RewriteRule ^$ /? [R=404,L]
+</IfModule>
+
+<Files wp-config.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files xmlrpc.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files wp-comments-post.php>
+order allow,deny
+deny from all
+</Files>
+
+# <FilesMatch "wp-login.php|wp-admin">
+#  order deny, allow
+#  deny from all
+#  allow from AAA.AAA.AAA.AAA
+# </FilesMatch>
+
+# END WordPress

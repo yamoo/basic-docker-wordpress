@@ -1,0 +1,474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Login rebuilder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-18 15:48+0900\n"
+"PO-Revision-Date: 2018-11-05 16:17:40+09:00\n"
+"Last-Translator: takenori matsuura <takenori.matsuura@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-Basepath: C:/Program Files (x86)/Apache Software Foundation/Apache2.4/htdocs\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poppoppoo/0.2.0\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/login-rebuilder\n"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:16
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:615
+msgctxt "menu"
+msgid "Login rebuilder"
+msgstr "ログインページ"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:20
+msgid "Notice: This page is valid for 30 minutes."
+msgstr "お知らせ: このページの有効期間は30分です。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:22
+msgid "Reload now."
+msgstr "今すぐリロード"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:27
+msgid "Response to an invalid request"
+msgstr "無効なリクエスト時の応答 "
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:29
+msgid "403 status"
+msgstr "403ステータス"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:30
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:96
+msgid "404 status"
+msgstr "404ステータス"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:31
+msgid "redirect to a site url"
+msgstr "サイトトップへリダイレクト"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:36
+msgid "Login file keyword"
+msgstr "ログインファイル キーワード"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:41
+msgid "New login file"
+msgstr "新しいログインファイル"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:49
+msgid "Secondary login file"
+msgstr "第2ログインファイル"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:71
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:84
+msgid "in preparation"
+msgstr "準備中"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:72
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:85
+msgid "working"
+msgstr "稼働中"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:77
+msgid "Logging"
+msgstr "ログ保存"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:80
+msgid "off"
+msgstr "しない"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:81
+msgid "invalid request only"
+msgstr "無効なリクエスト時のみ "
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:82
+msgid "login only"
+msgstr "ログイン時のみ"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:83
+msgid "all"
+msgstr "すべて"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:86
+msgid "Number of invalid logs"
+msgstr "無効なリクエストのログ件数"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:87
+msgid "Number of login logs"
+msgstr "ログインのログ件数"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:93
+msgid "Access to author page"
+msgstr "著者ページへのアクセス"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:95
+msgid "accept"
+msgstr "受け入れる"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:101
+msgid "oEmbed"
+msgstr ""
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:103
+msgid "Default"
+msgstr "標準"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:104
+msgid "Hide the author name and url of the response data."
+msgstr "レスポンスデータの投稿者名とURLを隠す。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:105
+msgid "Don't output response data and links of head element."
+msgstr "head要素内のリンクとレスポンスデータを出力しない。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:110
+msgid "Other"
+msgstr "その他"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:112
+msgid "Change the error message at login to ambiguous content."
+msgstr "ログイン時のエラーメッセージをあいまいな内容に変更する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:113
+msgid "Authentication using a email address and a password is prohibited."
+msgstr "メールアドレスとパスワードによる認証を禁止する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:114
+msgid "Reject the registration form."
+msgstr "登録フォームを拒絶する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:115
+msgid "Log file contains a heading line."
+msgstr "ログファイルに見出しを付ける。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:116
+msgid "Notify by email when the administrator login."
+msgstr "管理者のログインを通知する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:116
+msgid "Test"
+msgstr "テスト"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:125
+msgid "View log"
+msgstr "ログを表示"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:139
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:321
+msgid "Log of invalid request"
+msgstr "無効なリクエスト時のログ"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:148
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:326
+msgid "Log of login"
+msgstr "ログインのログ"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:184
+msgid "The case of the sub-site, you can not contain '/' in the path name. Please change a path name."
+msgstr "サブサイトでは、'/'を含んだパス名を指定できません。パス名を変更してください。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:202
+msgid "File exists, "
+msgstr "ファイルあり, "
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:204
+msgid "File not found, "
+msgstr "ファイルなし, "
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:206
+msgid "Writing is possible"
+msgstr "書き込み可能"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:209
+msgid "Writing is impossible"
+msgstr "書き込み不可"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:16
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:618
+msgid "XML-RPC"
+msgstr ""
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:23
+msgid "Usual"
+msgstr "基本設定"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:25
+msgid "Disables the XML-RPC method to authenticate."
+msgstr "XML-RPCメソッドの認証を禁止する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:26
+msgid "User with a check mark is valid."
+msgstr "チェックされたユーザーのみ有効となる。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:32
+msgid "Method with a check mark is valid."
+msgstr "チェックされたメソッドのみ有効となる。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:57
+msgid "Pingback"
+msgstr "ピンバック"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:59
+msgid "Does not send the pingback from the own site to the own site."
+msgstr "自サイトから自サイトへのピンバックを送信しない。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:60
+msgid "Does not receive all pingbacks. [Important] If this is checked, the setting of the above-mentioned 'pingback.ping' is ignored."
+msgstr "すべてのピンバックを受信しない。[重要]ここがチェックされた場合、上記の'pingback.ping'の設定は無視されます。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:62
+msgid "To limit the pingback to be received in a certain period of time."
+msgstr "一定時間内に受信できるピンバックを制限する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:66
+#, php-format
+msgid "Pingbacks can receive up to a maximum of %s per %s second(s)."
+msgstr "受け付けるピンバックを最大 %s 件 / %s 秒とする。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:70
+#, php-format
+msgid "If the number of received pingback has exceeded the limit it refuses to accept %s minutes."
+msgstr "ピンバックが受付制限を超過した場合に受付を %s 分間拒絶する。"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:74
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1746
+#, php-format
+msgid "It rejects the reception from %s"
+msgstr "%s から受付を拒絶"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:74
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1895
+msgid "Acceptance resumes"
+msgstr "受付を再開"
+
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:75
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1748
+msgid "Accepting"
+msgstr "受付中"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:332
+msgid "Log of pingback"
+msgstr "ピンバックのログ"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:646
+msgid "Please check your inbox for a confirmation email."
+msgstr "確認メールをチェックしてください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:651
+msgid "New login file is system file. Please change a path name."
+msgstr "指定されたログインファイル名は予約されています。パス名を変更してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:654
+msgid "The case of the sub-site, new login file is invalid. Please change a path name."
+msgstr "サブサイトでは指定されたログインファイル名は無効です。パス名を変更してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:657
+msgid "Login file for subscriber is invalid. Please change a path name."
+msgstr "指定された購読者専用ログインファイル名は予約されています。パス名を変更してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:660
+msgid "The case of the sub-site, login file for subscriber is invalid. Please change a path name."
+msgstr "サブサイトでは指定された購読者専用ログインファイル名は無効です。パス名を変更してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:663
+msgid "User role to use the secondary login file is not selected. Please select at least one role."
+msgstr "第2ログインファイルの権限グループが選択されていません。1つの以上の権限グループを選択してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:760
+msgid "However, failed to write a new login file to disk.\nPlease change into the enabled writing of a disk or upload manually."
+msgstr "ただし、ログインファイルの書き込みに失敗しました。\nディスクを書き込み可能に変更するか、手動でアップロードしてください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:767
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:772
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:787
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1901
+msgid "Options saved."
+msgstr "設定を保存しました。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:769
+msgid "However, failed to write a login file for subscriber to disk.\nPlease change into the enabled writing of a disk or upload manually."
+msgstr "ただし、購読者専用ログインファイルの書き込みに失敗しました。\nディスクを書き込み可能に変更するか、手動でアップロードしてください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:778
+msgid "However, a new login file was not found."
+msgstr "ただし、新しいログインファイルが見つかりませんでした。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:782
+msgid "However, the contents of a new login file are not in agreement."
+msgstr "ただし、ログインファイルの内容がおかしい可能性があります。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:807
+msgid "Expiration date of this page has expired."
+msgstr "ページの有効期間が切れています。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1674
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1709
+msgid "Request datetime - Username(Requesting IP)"
+msgstr "リクエスト日時 - ユーザー名(リクエスト元IP)"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1688
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1771
+msgid "Notice"
+msgstr "補足"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1688
+msgid "It will display the '(XMLRPC)' In the case of XML-RPC request."
+msgstr "XML-RPCリクエスト時は'(XMLRPC)'が表示されます。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1752
+msgid "Request datetime - Requesting IP|Status|From Hostname|(Error)"
+msgstr "リクエスト日時 - リクエスト元IP|状態|ピング元ホスト名|(エラー)"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1761
+msgid "(Unknown)"
+msgstr "(不明)"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1771
+msgid "'A' is accept."
+msgstr "'A'は受付です。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1771
+msgid "'R' is refuse."
+msgstr "'R'は拒否です。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1876
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1883
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1890
+msgid "Please specify a value of 1 or more."
+msgstr "1以上の値を指定してください。"
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1898
+msgid "Resumed the reception of the pingback."
+msgstr "ピンバックの受付を再開しました。"
+
+#: @:Description
+msgid "This plug-in will make a new login page for your site."
+msgstr "このプラグインは新しいログインページを作ります。"
+
+#: includes/form-properties.php:46
+msgid "Important: If you enable this setting, you can not login if the file specified below exists."
+msgstr "【重要】この設定をオンにし、指定されたファイルが存在する場合はログインできません。"
+
+#: includes/form-properties.php:47
+msgid "Use lock file"
+msgstr "ロックファイルを使用"
+
+#: includes/form-properties.php:234
+msgid "No login allowed"
+msgstr "ログイン不可"
+
+#: includes/form-properties.php:237 includes/form-properties.php:242
+msgid "Login possible"
+msgstr "ログイン可"
+
+#: login-rebuilder.php:1812
+msgid "Lock file"
+msgstr "ロックファイル"
+
+#: includes/form-properties.php:53
+msgid "Show locked status on pop-up re-login form."
+msgstr "ポップアップされた再ログインフォームにロック状態を表示する。"
+
+#: login-rebuilder.php:2549
+msgid "Authentication is locked, please login after unlocking."
+msgstr "認証ロック中: ロックを解除してからログインしてください。"
+
+#~ msgid "Notify by e-mail when the administrator login."
+#~ msgstr "管理者がログインした際にメールで通知する。"
+
+#, fuzzy
+#~ msgid "The error message when login, is changed to the ambiguous content."
+#~ msgstr "ログイン時のエラーメッセージをあいまいな内容に変更する。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Invalid username, email address or incorrect "
+#~ "password."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: 無効なユーザー名、メールアドレスまたはパスワード"
+#~ "です。"
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+#~ msgstr "<strong>エラー</strong>: 無効なユーザー名またはパスワードです。"
+
+#~ msgid "Limits the user."
+#~ msgstr "ユーザーを制限する。"
+
+#~ msgid "Limits the method."
+#~ msgstr "メソッドを制限する。"
+
+#~ msgid "Status :"
+#~ msgstr "ステータス :"
+
+#~ msgid "Alternative login file:"
+#~ msgstr "もう1つのログインファイル :"
+
+#~ msgid "Login file for subscriber:"
+#~ msgstr "購読者専用ログインファイル :"
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:16
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:16
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:599
+#~ msgid "Settings"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:54
+#~ msgid "Role"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:69
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:71
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:82
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1744
+#~ msgid "Status"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/includes/form-properties.php:122
+#: wp-content/plugins/login-rebuilder/includes/form-xmlrpc-properties.php:91
+#~ msgid "Save Changes"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:1134
+#~ msgid "M jS"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2139
+#~ msgid "Logged in information:"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2140
+#, php-format
+#~ msgid "Site URL: %s"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2141
+#, php-format
+#~ msgid "User name: %s"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2142
+#, php-format
+#~ msgid "Date time: %s"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2143
+#, php-format
+#~ msgid "IP address: %s"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2144
+#, php-format
+#~ msgid "User agent: %s"
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2145
+#~ msgid "If you are not logged in, promptly take appropriate measures."
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2146
+#, php-format
+#~ msgid "[%s] %s logged in."
+#~ msgstr ""
+
+#: wp-content/plugins/login-rebuilder/login-rebuilder.php:2352
+#~ msgid "This REST API has been disabled."
+#~ msgstr ""

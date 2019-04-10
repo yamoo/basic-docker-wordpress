@@ -1,0 +1,8 @@
+.DS_Store
+.tmp
+.env
+docker/logs
+docker/data
+src/wp-config.php
+src/wp-content/uploads
+src/wp-content/updraft
